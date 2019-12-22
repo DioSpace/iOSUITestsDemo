@@ -323,12 +323,7 @@ static NSInteger loginIndex = 0;//当前登录账号的下标
     //进入我的界面
     XCUIElementQuery *tabBarsQuery = self.app.tabBars;
     XCUIElement *tableBarButton = tabBarsQuery.buttons[@"我的"];
-//    !tableBarButton.exists ? :[tableBarButton tap];
-    if (tableBarButton.exists) {
-        [tableBarButton tap]
-    }else {
-        return;
-    }
+    !tableBarButton.exists ? : [tableBarButton tap];
     //获取标志性Element loginLabel
     XCUIElement *loginLabel = self.app.staticTexts[@"loginLabel"];
     //判断是否登陆
