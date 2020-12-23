@@ -2,8 +2,8 @@
 //  iOSUITestsUITests.m
 //  iOSUITestsUITests
 //
-//  Created by dyw on 2017/3/15.
-//  Copyright © 2017年 dyw. All rights reserved.
+//  Created by lzd_free on 2020/12/23.
+//  Copyright © 2020 dio. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
